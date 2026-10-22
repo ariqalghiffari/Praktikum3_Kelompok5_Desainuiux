@@ -142,12 +142,12 @@ body, html {
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 6px;
+    gap: 10px;
 }
 
 .photo-grid img {
-    width: 100px;
-    height: 125px;
+    width: 200px;
+    height: 225px;
     border: 1px solid #000;
     object-fit: cover;
 }
